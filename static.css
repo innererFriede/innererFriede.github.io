@@ -2666,6 +2666,40 @@ pre.hljs {
 }
 
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color:#56e;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 500px;
+height:300px;
+overflow: scroll;
+  background-color: white;
+  color: #000;
+  text-align: left;
+  border-radius: 6px;
+-moz-box-shadow: 10px 10px 5px #bbb;
+-webkit-box-shadow: 10px 10px 5px #bbb;
+box-shadow: 10px 10px 5px #bbb;
+  padding: 15px;
+display:block;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 80;
+  top: 20px;
+  left: 20px;
+}
+
+.tooltip:hover > .tooltiptext {
+  visibility: visible;
+}
+
+
+
 /*BOXES*/
 
 html body.tc-body .graybox {display:block;background-color:#eee;padding:5px;padding-left:20px;padding-top:10px;margin-top:5px;margin-bottom:5px;width:95%;}
