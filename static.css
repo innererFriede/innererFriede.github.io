@@ -775,7 +775,7 @@ a.tc-tiddlylink:hover {
 	right: 0;
 	background: #859900;
 	text-align: center;
-	content: "Drop now (or use the 'Escape' key to cancel)";
+	content: "Hierher ziehen (oder Escape um abzubrechen)";
 }.tc-droppable > .tc-droppable-placeholder {
 	display: none;
 }.tc-droppable.tc-dragover > .tc-droppable-placeholder {
@@ -1421,7 +1421,7 @@ a.tc-tiddlylink:hover {
 	right:0;
 	height: 100%;
 	background: #859900;
-	content: "Drop now (or use the 'Escape' key to cancel)";
+	content: "Hierher ziehen (oder Escape um abzubrechen)";
 	pointer-events: none;
 	position: absolute;
 	display: flex;
